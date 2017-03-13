@@ -30,6 +30,9 @@ public class Myview extends View{
     }
     public Myview(Context context, AttributeSet attrs) {
         this(context, attrs,R.style.AppTheme);
+
+
+
         gintf(context,attrs);
     }
     private void gintf(Context context, AttributeSet attrs) {
