@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ring="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="start"
+        android:text="开始" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:onClick="chong"
+        android:text="重置" />
+
+    <com.baway.jingzeyang.Myview
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:text_kuan="150dp"
+        app:text_color="#000000"
+        app:text_huancolor="#ff0000"
+
+        android:id="@+id/circleView" />
+
+
+</RelativeLayout>
